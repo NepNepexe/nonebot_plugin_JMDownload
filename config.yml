@@ -12,9 +12,9 @@ client:
     read: 60
 
 download:
-  cache: true  # 禁用缓存避免残留
+  cache: true  
   image:
-    decode: true  # 必须启用解码
+    decode: true 
     suffix: .jpg
   threading:
     batch_count: 20
